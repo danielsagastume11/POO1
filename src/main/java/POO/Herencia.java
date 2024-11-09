@@ -22,7 +22,7 @@ public class Herencia {
     Animal Qeco1 = new Qeco("No", "Si", "Si", "SI", 4);
     //Qeco1.Sonido();
     
-    List<Animal> Lista = new ArrayList<Animal>();
+    List<Animal> Lista = new ArrayList<>();
     Lista.add(perro1);
     Lista.add(gato1);
     Lista.add(new Qeco("NO", "SI", "SI", "SI", 4));
