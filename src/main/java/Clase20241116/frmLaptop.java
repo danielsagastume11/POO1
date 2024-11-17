@@ -6,6 +6,7 @@ package Clase20241116;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -158,6 +159,15 @@ public class frmLaptop extends javax.swing.JFrame {
                String.valueOf(cboMarca.getSelectedItem()),
                txtModelo.getText())           
        );
+       JOptionPane.showMessageDialog(
+    null, // Componente padre
+    "Pantalla: " + txtPantalla.getText() + "\n" +
+    "Teclado: " + txtTeclado.getText() + "\n" +
+    "Color: " + txtColor.getText() + "\n" +
+    "Marca: " + cboMarca.getSelectedItem() + "\n" +
+    "Modelo: " + txtModelo.getText()
+);
+
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     /**

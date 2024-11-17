@@ -6,6 +6,7 @@ package Clase20241116;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -157,6 +158,14 @@ public class frmTelevisor extends javax.swing.JFrame {
                 String.valueOf(cboMarca.getSelectedItem()), 
                 txtModelo.getText())
         );
+    JOptionPane.showMessageDialog(
+    null, // Componente padre
+    "Pantalla: " + txtSonido.getText() + "\n" +
+    "Teclado: " + txtPantalla.getText() + "\n" +
+    "Marca: " + cboMarca.getSelectedItem() + "\n" +
+    "Modelo: " + txtModelo.getText()+ "\n"+
+    "Color: " + cboColor.getSelectedItem()
+);
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed

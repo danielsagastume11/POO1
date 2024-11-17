@@ -6,6 +6,7 @@ package Clase20241116;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -146,7 +147,14 @@ public class frmAuriculares extends javax.swing.JFrame {
             String.valueOf(cboMarca.getSelectedItem()),
             txtModelo.getText())     
         );
-    
+        JOptionPane.showMessageDialog(
+    null, // Componente padre
+    "Pantalla: " + txtSonido.getText() + "\n" +
+    "Teclado: " + txtRendimiento.getText() + "\n" +
+    "Color: " + txtColor.getText() + "\n" +
+    "Marca: " + cboMarca.getSelectedItem() + "\n" +
+    "Modelo: " + txtModelo.getText()
+);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
