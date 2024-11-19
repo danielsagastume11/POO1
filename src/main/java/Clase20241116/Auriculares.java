@@ -6,7 +6,7 @@ package Clase20241116;
 
 /**
  *
- * @author Jorge Martinez
+ * @author Daniel Sagastume
  */
 public class Auriculares extends Producto {
     private String Sonido;

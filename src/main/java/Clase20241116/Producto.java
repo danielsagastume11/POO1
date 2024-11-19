@@ -6,7 +6,7 @@ package Clase20241116;
 
 /**
  *
- * @author Jorge Martinez
+ * @author Daniel Sagastume
  */
 public class Producto {
     private String Color;
